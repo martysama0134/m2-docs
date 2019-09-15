@@ -13,6 +13,7 @@ var searchData=
   ['enable_5fnewstuff',['ENABLE_NEWSTUFF',['../_common_defines_8h.html#ab9b55728b81b315ce8f448dcaf8cde3e',1,'CommonDefines.h']]],
   ['enable_5fplayer_5fper_5faccount5',['ENABLE_PLAYER_PER_ACCOUNT5',['../_common_defines_8h.html#a630a560d5fdfd380228f4cf0e26d0047',1,'CommonDefines.h']]],
   ['enable_5fport_5fsecurity',['ENABLE_PORT_SECURITY',['../_common_defines_8h.html#a8bf8f371b9315570a225bd93a4052625',1,'CommonDefines.h']]],
+  ['enable_5fsequence_5fsystem',['ENABLE_SEQUENCE_SYSTEM',['../_commented_defines_8h.html#acdce3b19a0222ad73aae01329540bcd2',1,'CommentedDefines.h']]],
   ['enable_5fset_5fstate_5fwith_5ftarget',['ENABLE_SET_STATE_WITH_TARGET',['../cmd__gm_8cpp.html#a4c254f44e1b61aab744722dcee831557',1,'cmd_gm.cpp']]],
   ['enable_5fstatplus_5fnolimit',['ENABLE_STATPLUS_NOLIMIT',['../cmd__gm_8cpp.html#a624eae899d273a0ba03a3003a585e55a',1,'cmd_gm.cpp']]],
   ['enable_5fuse_5fcostume_5fattr',['ENABLE_USE_COSTUME_ATTR',['../_common_defines_8h.html#affbef2cee65e0d781249670c8a398528',1,'CommonDefines.h']]],

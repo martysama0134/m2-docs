@@ -1,5 +1,6 @@
 var NAVTREEINDEX5 =
 {
+"group___lua_func_list.html#gafc3893b066c95e7b4b03ace95321a465":[8,1,443],
 "group___lua_func_list.html#gafca1605b505b942edc0e81436cd21414":[8,1,584],
 "group___lua_func_list.html#gafccb9522648f80f777f779b0cffb8c0b":[8,1,410],
 "group___lua_func_list.html#gafcee6dab6e3ed0d2a65e442bffd7b9bd":[8,1,65],
@@ -248,6 +249,5 @@ var NAVTREEINDEX5 =
 "questlua__global_8cpp.html#gaf0d12e2a74cd0e2fb6059a1eabf7a045":[9,0,18,79],
 "questlua__global_8cpp.html#gaf297cc80dd595f0fc657780b232b0d7d":[9,0,18,50],
 "questlua__global_8cpp.html#gaf7919d2cbbd2c6454968120cd6eb1c5c":[9,0,18,16],
-"questlua__global_8cpp.html#gaf817b403fc72ca996a3432c742366892":[9,0,18,23],
-"questlua__global_8cpp.html#gaf832e74e69a7592fac2d35079ed46367":[9,0,18,80]
+"questlua__global_8cpp.html#gaf817b403fc72ca996a3432c742366892":[9,0,18,23]
 };

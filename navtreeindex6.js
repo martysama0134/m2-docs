@@ -1,5 +1,6 @@
 var NAVTREEINDEX6 =
 {
+"questlua__global_8cpp.html#gaf832e74e69a7592fac2d35079ed46367":[9,0,18,80],
 "questlua__global_8cpp.html#gafcee6dab6e3ed0d2a65e442bffd7b9bd":[9,0,18,62],
 "questlua__global_8cpp.html#gafe9fdcaf5895e09e9d58dd5476384c9d":[9,0,18,72],
 "questlua__guild_8cpp.html":[9,0,19],
@@ -248,6 +249,5 @@ var NAVTREEINDEX6 =
 "questlua__pc_8cpp.html#ga3d28ba9c0428044d78124f61a5a3f22c":[9,0,28,121],
 "questlua__pc_8cpp.html#ga3ed70332a70535e872b3dc7fca14801f":[9,0,28,181],
 "questlua__pc_8cpp.html#ga3f8133adbd7a8208b6cf2c19a717173e":[9,0,28,88],
-"questlua__pc_8cpp.html#ga3fb3607c2751554cebbe7973577b0f0c":[9,0,28,87],
-"questlua__pc_8cpp.html#ga418419aa538c08e950fcf8ab4b8d09a6":[9,0,28,168]
+"questlua__pc_8cpp.html#ga3fb3607c2751554cebbe7973577b0f0c":[9,0,28,87]
 };

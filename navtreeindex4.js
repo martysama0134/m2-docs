@@ -1,5 +1,6 @@
 var NAVTREEINDEX4 =
 {
+"group___lua_func_list.html#ga9db6c953cd98fc1157e764b4c145b1b5":[8,1,537],
 "group___lua_func_list.html#ga9e038d21466467943f173922d8b9117d":[8,1,67],
 "group___lua_func_list.html#ga9ecd857b20b25058a4bccbfb94836893":[8,1,6],
 "group___lua_func_list.html#ga9ed9f5a8754a9b2f070ee4c6d92e7aa9":[8,1,111],
@@ -248,6 +249,5 @@ var NAVTREEINDEX4 =
 "group___lua_func_list.html#gafb0e421b53aba5a12955ff037cf4b9f1":[8,1,188],
 "group___lua_func_list.html#gafb1306bd306e47112b7e2cc783fd44dc":[8,1,247],
 "group___lua_func_list.html#gafb2999764a1db6ea7d29beecde706f0b":[8,1,471],
-"group___lua_func_list.html#gafb39b36e59667d8e32340f6bdc2812a2":[8,1,160],
-"group___lua_func_list.html#gafc3893b066c95e7b4b03ace95321a465":[8,1,443]
+"group___lua_func_list.html#gafb39b36e59667d8e32340f6bdc2812a2":[8,1,160]
 };
