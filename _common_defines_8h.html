@@ -173,9 +173,15 @@ Macros</h2></td></tr>
 <tr class="memitem:a73859a2476b1c9404c01010264036c88"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_common_defines_8h.html#a73859a2476b1c9404c01010264036c88">ENABLE_BELT_INVENTORY_EX</a></td></tr>
 <tr class="memdesc:a73859a2476b1c9404c01010264036c88"><td class="mdescLeft">&#160;</td><td class="mdescRight">move the belt items into the BELT_INVENTORY window and prevents unknown belt positions if you de/increase wear/inventory slots  <a href="#a73859a2476b1c9404c01010264036c88">More...</a><br /></td></tr>
 <tr class="separator:a73859a2476b1c9404c01010264036c88"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:affbef2cee65e0d781249670c8a398528"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_common_defines_8h.html#affbef2cee65e0d781249670c8a398528">ENABLE_USE_COSTUME_ATTR</a></td></tr>
+<tr class="memdesc:affbef2cee65e0d781249670c8a398528"><td class="mdescLeft">&#160;</td><td class="mdescRight">enable the items reset costume and enchant costume  <a href="#affbef2cee65e0d781249670c8a398528">More...</a><br /></td></tr>
+<tr class="separator:affbef2cee65e0d781249670c8a398528"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a26e71724d9b6dba87a69392a2809a86c"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_common_defines_8h.html#a26e71724d9b6dba87a69392a2809a86c">ENABLE_ITEM_ATTR_COSTUME</a></td></tr>
 <tr class="memdesc:a26e71724d9b6dba87a69392a2809a86c"><td class="mdescLeft">&#160;</td><td class="mdescRight">enable costume_hair, costume_body, costume_weapon item_attr/_rare parts  <a href="#a26e71724d9b6dba87a69392a2809a86c">More...</a><br /></td></tr>
 <tr class="separator:a26e71724d9b6dba87a69392a2809a86c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afd8d81e269bf8ab0945b1a491c6010ef"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_common_defines_8h.html#afd8d81e269bf8ab0945b1a491c6010ef">ENABLE_CMD_WARP_IN_DUNGEON</a></td></tr>
+<tr class="memdesc:afd8d81e269bf8ab0945b1a491c6010ef"><td class="mdescLeft">&#160;</td><td class="mdescRight">/warp &lt;player&gt; will warp successfully even if the player is inside a dungeon (be sure a .quest login event won't still warp you out)  <a href="#afd8d81e269bf8ab0945b1a491c6010ef">More...</a><br /></td></tr>
+<tr class="separator:afd8d81e269bf8ab0945b1a491c6010ef"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a75891f849fa34fffefbe54cdfa8d9fc2"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_common_defines_8h.html#a75891f849fa34fffefbe54cdfa8d9fc2">ENABLE_WOLFMAN_CHARACTER</a></td></tr>
 <tr class="memdesc:a75891f849fa34fffefbe54cdfa8d9fc2"><td class="mdescLeft">&#160;</td><td class="mdescRight">enable wolfman character and the relative new features (claws, bleeding and so on)  <a href="#a75891f849fa34fffefbe54cdfa8d9fc2">More...</a><br /></td></tr>
 <tr class="separator:a75891f849fa34fffefbe54cdfa8d9fc2"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -213,10 +219,10 @@ Enumerations</h2></td></tr>
 &#160;&#160;<a class="el" href="_common_defines_8h.html#a30588020d94e465833eba9f36099895ca9d48cae3ddfc48594e651b6b97eea582">EVENT_MOB_RATE_LIMIT</a> = 1000, 
 <a class="el" href="_common_defines_8h.html#a30588020d94e465833eba9f36099895caf9740233d92add117719f5b9c4692c1b">MAP_ALLOW_LIMIT</a> = 32, 
 <a class="el" href="_common_defines_8h.html#a30588020d94e465833eba9f36099895ca470f0521513a54c1b16b4526e47daac0">PRIV_EMPIRE_RATE_LIMIT</a> = 200, 
-<a class="el" href="_common_defines_8h.html#a30588020d94e465833eba9f36099895ca78f909a853877642ac369fae6d193dce">PRIV_EMPIRE_TIME_LIMIT</a> = 60*60*24*7, 
+<a class="el" href="_common_defines_8h.html#a30588020d94e465833eba9f36099895ca78f909a853877642ac369fae6d193dce">PRIV_EMPIRE_TIME_LIMIT</a> = 60 * 60 * 24 * 7, 
 <br />
 &#160;&#160;<a class="el" href="_common_defines_8h.html#a30588020d94e465833eba9f36099895cae3ec7884d6fd6c91c84407a049f35ae5">PRIV_GUILD_RATE_LIMIT</a> = 50, 
-<a class="el" href="_common_defines_8h.html#a30588020d94e465833eba9f36099895ca01c5d862245fa4b654b74c229a63957a">PRIV_GUILD_TIME_LIMIT</a> = 60*60*24*7, 
+<a class="el" href="_common_defines_8h.html#a30588020d94e465833eba9f36099895ca01c5d862245fa4b654b74c229a63957a">PRIV_GUILD_TIME_LIMIT</a> = 60 * 60 * 24 * 7, 
 <a class="el" href="_common_defines_8h.html#a30588020d94e465833eba9f36099895ca81d8c317c75f81c0faec357fee974cde">PRIV_PLAYER_RATE_LIMIT</a> = 100
 <br />
  }<tr class="memdesc:a30588020d94e465833eba9f36099895c"><td class="mdescLeft">&#160;</td><td class="mdescRight">List of common constants.  <a href="_common_defines_8h.html#a30588020d94e465833eba9f36099895c">More...</a><br /></td></tr>
@@ -242,6 +248,25 @@ Enumerations</h2></td></tr>
 <dl class="defines"><dt><b><a class="el" href="defines.html#_defines000009">Defines:</a></b></dt><dd>move the belt items into the BELT_INVENTORY window and prevents unknown belt positions if you de/increase wear/inventory slots</dd></dl>
 <dl class="newstuff"><dt><b><a class="el" href="newstuff.html#_newstuff000009">NewStuff:</a></b></dt><dd>move the belt items into the BELT_INVENTORY window and prevents unknown belt positions if you de/increase wear/inventory slots</dd></dl>
 <dl class="newstuffdefines"><dt><b><a class="el" href="newstuffdefines.html#_newstuffdefines000009">New Defines:</a></b></dt><dd>move the belt items into the BELT_INVENTORY window and prevents unknown belt positions if you de/increase wear/inventory slots</dd></dl>
+
+</div>
+</div>
+<a id="afd8d81e269bf8ab0945b1a491c6010ef"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afd8d81e269bf8ab0945b1a491c6010ef">&#9670;&nbsp;</a></span>ENABLE_CMD_WARP_IN_DUNGEON</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define ENABLE_CMD_WARP_IN_DUNGEON</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>/warp &lt;player&gt; will warp successfully even if the player is inside a dungeon (be sure a .quest login event won't still warp you out) </p>
+<dl class="defines"><dt><b><a class="el" href="defines.html#_defines000012">Defines:</a></b></dt><dd>/warp &lt;player&gt; will warp successfully even if the player is inside a dungeon (be sure a .quest login event won't still warp you out)</dd></dl>
+<dl class="newstuff"><dt><b><a class="el" href="newstuff.html#_newstuff000012">NewStuff:</a></b></dt><dd>/warp &lt;player&gt; will warp successfully even if the player is inside a dungeon (be sure a .quest login event won't still warp you out)</dd></dl>
+<dl class="newstuffdefines"><dt><b><a class="el" href="newstuffdefines.html#_newstuffdefines000012">New Defines:</a></b></dt><dd>/warp &lt;player&gt; will warp successfully even if the player is inside a dungeon (be sure a .quest login event won't still warp you out)</dd></dl>
 
 </div>
 </div>
@@ -277,9 +302,9 @@ Enumerations</h2></td></tr>
 </div><div class="memdoc">
 
 <p>enable dice system: if the mob is king or boss and you're in party, the dropped item is randomly rolled </p>
-<dl class="defines"><dt><b><a class="el" href="defines.html#_defines000017">Defines:</a></b></dt><dd>enable dice system: if the mob is king or boss and you're in party, the dropped item is randomly rolled</dd></dl>
-<dl class="newstuff"><dt><b><a class="el" href="newstuff.html#_newstuff000017">NewStuff:</a></b></dt><dd>enable dice system: if the mob is king or boss and you're in party, the dropped item is randomly rolled</dd></dl>
-<dl class="newstuffdefines"><dt><b><a class="el" href="newstuffdefines.html#_newstuffdefines000017">New Defines:</a></b></dt><dd>enable dice system: if the mob is king or boss and you're in party, the dropped item is randomly rolled</dd></dl>
+<dl class="defines"><dt><b><a class="el" href="defines.html#_defines000019">Defines:</a></b></dt><dd>enable dice system: if the mob is king or boss and you're in party, the dropped item is randomly rolled</dd></dl>
+<dl class="newstuff"><dt><b><a class="el" href="newstuff.html#_newstuff000019">NewStuff:</a></b></dt><dd>enable dice system: if the mob is king or boss and you're in party, the dropped item is randomly rolled</dd></dl>
+<dl class="newstuffdefines"><dt><b><a class="el" href="newstuffdefines.html#_newstuffdefines000019">New Defines:</a></b></dt><dd>enable dice system: if the mob is king or boss and you're in party, the dropped item is randomly rolled</dd></dl>
 
 </div>
 </div>
@@ -296,9 +321,9 @@ Enumerations</h2></td></tr>
 </div><div class="memdoc">
 
 <p>enable 4 inventory pages </p>
-<dl class="defines"><dt><b><a class="el" href="defines.html#_defines000018">Defines:</a></b></dt><dd>enable 4 inventory pages</dd></dl>
-<dl class="newstuff"><dt><b><a class="el" href="newstuff.html#_newstuff000018">NewStuff:</a></b></dt><dd>enable 4 inventory pages</dd></dl>
-<dl class="newstuffdefines"><dt><b><a class="el" href="newstuffdefines.html#_newstuffdefines000018">New Defines:</a></b></dt><dd>enable 4 inventory pages</dd></dl>
+<dl class="defines"><dt><b><a class="el" href="defines.html#_defines000020">Defines:</a></b></dt><dd>enable 4 inventory pages</dd></dl>
+<dl class="newstuff"><dt><b><a class="el" href="newstuff.html#_newstuff000020">NewStuff:</a></b></dt><dd>enable 4 inventory pages</dd></dl>
+<dl class="newstuffdefines"><dt><b><a class="el" href="newstuffdefines.html#_newstuffdefines000020">New Defines:</a></b></dt><dd>enable 4 inventory pages</dd></dl>
 
 </div>
 </div>
@@ -334,9 +359,9 @@ Enumerations</h2></td></tr>
 </div><div class="memdoc">
 
 <p>enable costume_hair, costume_body, costume_weapon item_attr/_rare parts </p>
-<dl class="defines"><dt><b><a class="el" href="defines.html#_defines000010">Defines:</a></b></dt><dd>enable costume_hair, costume_body, costume_weapon item_attr/_rare parts</dd></dl>
-<dl class="newstuff"><dt><b><a class="el" href="newstuff.html#_newstuff000010">NewStuff:</a></b></dt><dd>enable costume_hair, costume_body, costume_weapon item_attr/_rare parts</dd></dl>
-<dl class="newstuffdefines"><dt><b><a class="el" href="newstuffdefines.html#_newstuffdefines000010">New Defines:</a></b></dt><dd>enable costume_hair, costume_body, costume_weapon item_attr/_rare parts</dd></dl>
+<dl class="defines"><dt><b><a class="el" href="defines.html#_defines000011">Defines:</a></b></dt><dd>enable costume_hair, costume_body, costume_weapon item_attr/_rare parts</dd></dl>
+<dl class="newstuff"><dt><b><a class="el" href="newstuff.html#_newstuff000011">NewStuff:</a></b></dt><dd>enable costume_hair, costume_body, costume_weapon item_attr/_rare parts</dd></dl>
+<dl class="newstuffdefines"><dt><b><a class="el" href="newstuffdefines.html#_newstuffdefines000011">New Defines:</a></b></dt><dd>enable costume_hair, costume_body, costume_weapon item_attr/_rare parts</dd></dl>
 
 </div>
 </div>
@@ -353,9 +378,9 @@ Enumerations</h2></td></tr>
 </div><div class="memdoc">
 
 <p>enable mount costume slot </p>
-<dl class="defines"><dt><b><a class="el" href="defines.html#_defines000019">Defines:</a></b></dt><dd>enable mount costume slot</dd></dl>
-<dl class="newstuff"><dt><b><a class="el" href="newstuff.html#_newstuff000019">NewStuff:</a></b></dt><dd>enable mount costume slot</dd></dl>
-<dl class="newstuffdefines"><dt><b><a class="el" href="newstuffdefines.html#_newstuffdefines000019">New Defines:</a></b></dt><dd>enable mount costume slot</dd></dl>
+<dl class="defines"><dt><b><a class="el" href="defines.html#_defines000021">Defines:</a></b></dt><dd>enable mount costume slot</dd></dl>
+<dl class="newstuff"><dt><b><a class="el" href="newstuff.html#_newstuff000021">NewStuff:</a></b></dt><dd>enable mount costume slot</dd></dl>
+<dl class="newstuffdefines"><dt><b><a class="el" href="newstuffdefines.html#_newstuffdefines000021">New Defines:</a></b></dt><dd>enable mount costume slot</dd></dl>
 
 </div>
 </div>
@@ -391,9 +416,9 @@ Enumerations</h2></td></tr>
 </div><div class="memdoc">
 
 <p>enable 5 characters (per account) in the select phase (instead of 4) </p>
-<dl class="defines"><dt><b><a class="el" href="defines.html#_defines000016">Defines:</a></b></dt><dd>enable 5 characters (per account) in the select phase (instead of 4)</dd></dl>
-<dl class="newstuff"><dt><b><a class="el" href="newstuff.html#_newstuff000016">NewStuff:</a></b></dt><dd>enable 5 characters (per account) in the select phase (instead of 4)</dd></dl>
-<dl class="newstuffdefines"><dt><b><a class="el" href="newstuffdefines.html#_newstuffdefines000016">New Defines:</a></b></dt><dd>enable 5 characters (per account) in the select phase (instead of 4)</dd></dl>
+<dl class="defines"><dt><b><a class="el" href="defines.html#_defines000018">Defines:</a></b></dt><dd>enable 5 characters (per account) in the select phase (instead of 4)</dd></dl>
+<dl class="newstuff"><dt><b><a class="el" href="newstuff.html#_newstuff000018">NewStuff:</a></b></dt><dd>enable 5 characters (per account) in the select phase (instead of 4)</dd></dl>
+<dl class="newstuffdefines"><dt><b><a class="el" href="newstuffdefines.html#_newstuffdefines000018">New Defines:</a></b></dt><dd>enable 5 characters (per account) in the select phase (instead of 4)</dd></dl>
 
 </div>
 </div>
@@ -416,6 +441,25 @@ Enumerations</h2></td></tr>
 
 </div>
 </div>
+<a id="affbef2cee65e0d781249670c8a398528"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#affbef2cee65e0d781249670c8a398528">&#9670;&nbsp;</a></span>ENABLE_USE_COSTUME_ATTR</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define ENABLE_USE_COSTUME_ATTR</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>enable the items reset costume and enchant costume </p>
+<dl class="defines"><dt><b><a class="el" href="defines.html#_defines000010">Defines:</a></b></dt><dd>enable the items reset costume and enchant costume</dd></dl>
+<dl class="newstuff"><dt><b><a class="el" href="newstuff.html#_newstuff000010">NewStuff:</a></b></dt><dd>enable the items reset costume and enchant costume</dd></dl>
+<dl class="newstuffdefines"><dt><b><a class="el" href="newstuffdefines.html#_newstuffdefines000010">New Defines:</a></b></dt><dd>enable the items reset costume and enchant costume</dd></dl>
+
+</div>
+</div>
 <a id="a1870630734abc5056e4db4b1c93ae49b"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a1870630734abc5056e4db4b1c93ae49b">&#9670;&nbsp;</a></span>ENABLE_WEAPON_COSTUME_SYSTEM</h2>
 
@@ -429,9 +473,9 @@ Enumerations</h2></td></tr>
 </div><div class="memdoc">
 
 <p>enable weapon costume slot </p>
-<dl class="defines"><dt><b><a class="el" href="defines.html#_defines000020">Defines:</a></b></dt><dd>enable weapon costume slot</dd></dl>
-<dl class="newstuff"><dt><b><a class="el" href="newstuff.html#_newstuff000020">NewStuff:</a></b></dt><dd>enable weapon costume slot</dd></dl>
-<dl class="newstuffdefines"><dt><b><a class="el" href="newstuffdefines.html#_newstuffdefines000020">New Defines:</a></b></dt><dd>enable weapon costume slot</dd></dl>
+<dl class="defines"><dt><b><a class="el" href="defines.html#_defines000022">Defines:</a></b></dt><dd>enable weapon costume slot</dd></dl>
+<dl class="newstuff"><dt><b><a class="el" href="newstuff.html#_newstuff000022">NewStuff:</a></b></dt><dd>enable weapon costume slot</dd></dl>
+<dl class="newstuffdefines"><dt><b><a class="el" href="newstuffdefines.html#_newstuffdefines000022">New Defines:</a></b></dt><dd>enable weapon costume slot</dd></dl>
 
 </div>
 </div>
@@ -448,9 +492,9 @@ Enumerations</h2></td></tr>
 </div><div class="memdoc">
 
 <p>enable wolfman character and the relative new features (claws, bleeding and so on) </p>
-<dl class="defines"><dt><b><a class="el" href="defines.html#_defines000011">Defines:</a></b></dt><dd>enable wolfman character and the relative new features (claws, bleeding and so on)</dd></dl>
-<dl class="newstuff"><dt><b><a class="el" href="newstuff.html#_newstuff000011">NewStuff:</a></b></dt><dd>enable wolfman character and the relative new features (claws, bleeding and so on)</dd></dl>
-<dl class="newstuffdefines"><dt><b><a class="el" href="newstuffdefines.html#_newstuffdefines000011">New Defines:</a></b></dt><dd>enable wolfman character and the relative new features (claws, bleeding and so on)</dd></dl>
+<dl class="defines"><dt><b><a class="el" href="defines.html#_defines000013">Defines:</a></b></dt><dd>enable wolfman character and the relative new features (claws, bleeding and so on)</dd></dl>
+<dl class="newstuff"><dt><b><a class="el" href="newstuff.html#_newstuff000013">NewStuff:</a></b></dt><dd>enable wolfman character and the relative new features (claws, bleeding and so on)</dd></dl>
+<dl class="newstuffdefines"><dt><b><a class="el" href="newstuffdefines.html#_newstuffdefines000013">New Defines:</a></b></dt><dd>enable wolfman character and the relative new features (claws, bleeding and so on)</dd></dl>
 
 </div>
 </div>
@@ -467,9 +511,9 @@ Enumerations</h2></td></tr>
 </div><div class="memdoc">
 
 <p>if enabled, the mob_proto structure won't change and the bleeding % will be get from the poison field </p>
-<dl class="defines"><dt><b><a class="el" href="defines.html#_defines000012">Defines:</a></b></dt><dd>if enabled, the mob_proto structure won't change and the bleeding % will be get from the poison field</dd></dl>
-<dl class="newstuff"><dt><b><a class="el" href="newstuff.html#_newstuff000012">NewStuff:</a></b></dt><dd>if enabled, the mob_proto structure won't change and the bleeding % will be get from the poison field</dd></dl>
-<dl class="newstuffdefines"><dt><b><a class="el" href="newstuffdefines.html#_newstuffdefines000012">New Defines:</a></b></dt><dd>if enabled, the mob_proto structure won't change and the bleeding % will be get from the poison field</dd></dl>
+<dl class="defines"><dt><b><a class="el" href="defines.html#_defines000014">Defines:</a></b></dt><dd>if enabled, the mob_proto structure won't change and the bleeding % will be get from the poison field</dd></dl>
+<dl class="newstuff"><dt><b><a class="el" href="newstuff.html#_newstuff000014">NewStuff:</a></b></dt><dd>if enabled, the mob_proto structure won't change and the bleeding % will be get from the poison field</dd></dl>
+<dl class="newstuffdefines"><dt><b><a class="el" href="newstuffdefines.html#_newstuffdefines000014">New Defines:</a></b></dt><dd>if enabled, the mob_proto structure won't change and the bleeding % will be get from the poison field</dd></dl>
 
 </div>
 </div>
@@ -486,9 +530,9 @@ Enumerations</h2></td></tr>
 </div><div class="memdoc">
 
 <p>if enabled, the mob_proto structure won't change and the claw % will be get from the dagger field </p>
-<dl class="defines"><dt><b><a class="el" href="defines.html#_defines000013">Defines:</a></b></dt><dd>if enabled, the mob_proto structure won't change and the claw % will be get from the dagger field</dd></dl>
-<dl class="newstuff"><dt><b><a class="el" href="newstuff.html#_newstuff000013">NewStuff:</a></b></dt><dd>if enabled, the mob_proto structure won't change and the claw % will be get from the dagger field</dd></dl>
-<dl class="newstuffdefines"><dt><b><a class="el" href="newstuffdefines.html#_newstuffdefines000013">New Defines:</a></b></dt><dd>if enabled, the mob_proto structure won't change and the claw % will be get from the dagger field</dd></dl>
+<dl class="defines"><dt><b><a class="el" href="defines.html#_defines000015">Defines:</a></b></dt><dd>if enabled, the mob_proto structure won't change and the claw % will be get from the dagger field</dd></dl>
+<dl class="newstuff"><dt><b><a class="el" href="newstuff.html#_newstuff000015">NewStuff:</a></b></dt><dd>if enabled, the mob_proto structure won't change and the claw % will be get from the dagger field</dd></dl>
+<dl class="newstuffdefines"><dt><b><a class="el" href="newstuffdefines.html#_newstuffdefines000015">New Defines:</a></b></dt><dd>if enabled, the mob_proto structure won't change and the claw % will be get from the dagger field</dd></dl>
 
 </div>
 </div>
@@ -505,9 +549,9 @@ Enumerations</h2></td></tr>
 </div><div class="memdoc">
 
 <p>if enabled, lycan skill books can be dropped </p>
-<dl class="defines"><dt><b><a class="el" href="defines.html#_defines000015">Defines:</a></b></dt><dd>if enabled, lycan skill books can be dropped</dd></dl>
-<dl class="newstuff"><dt><b><a class="el" href="newstuff.html#_newstuff000015">NewStuff:</a></b></dt><dd>if enabled, lycan skill books can be dropped</dd></dl>
-<dl class="newstuffdefines"><dt><b><a class="el" href="newstuffdefines.html#_newstuffdefines000015">New Defines:</a></b></dt><dd>if enabled, lycan skill books can be dropped</dd></dl>
+<dl class="defines"><dt><b><a class="el" href="defines.html#_defines000017">Defines:</a></b></dt><dd>if enabled, lycan skill books can be dropped</dd></dl>
+<dl class="newstuff"><dt><b><a class="el" href="newstuff.html#_newstuff000017">NewStuff:</a></b></dt><dd>if enabled, lycan skill books can be dropped</dd></dl>
+<dl class="newstuffdefines"><dt><b><a class="el" href="newstuffdefines.html#_newstuffdefines000017">New Defines:</a></b></dt><dd>if enabled, lycan skill books can be dropped</dd></dl>
 
 </div>
 </div>
@@ -524,9 +568,9 @@ Enumerations</h2></td></tr>
 </div><div class="memdoc">
 
 <p>if enabled, lycan stones can be dropped from the metin stones </p>
-<dl class="defines"><dt><b><a class="el" href="defines.html#_defines000014">Defines:</a></b></dt><dd>if enabled, lycan stones can be dropped from the metin stones</dd></dl>
-<dl class="newstuff"><dt><b><a class="el" href="newstuff.html#_newstuff000014">NewStuff:</a></b></dt><dd>if enabled, lycan stones can be dropped from the metin stones</dd></dl>
-<dl class="newstuffdefines"><dt><b><a class="el" href="newstuffdefines.html#_newstuffdefines000014">New Defines:</a></b></dt><dd>if enabled, lycan stones can be dropped from the metin stones</dd></dl>
+<dl class="defines"><dt><b><a class="el" href="defines.html#_defines000016">Defines:</a></b></dt><dd>if enabled, lycan stones can be dropped from the metin stones</dd></dl>
+<dl class="newstuff"><dt><b><a class="el" href="newstuff.html#_newstuff000016">NewStuff:</a></b></dt><dd>if enabled, lycan stones can be dropped from the metin stones</dd></dl>
+<dl class="newstuffdefines"><dt><b><a class="el" href="newstuffdefines.html#_newstuffdefines000016">New Defines:</a></b></dt><dd>if enabled, lycan stones can be dropped from the metin stones</dd></dl>
 
 </div>
 </div>
@@ -546,39 +590,39 @@ Enumerations</h2></td></tr>
 <p>List of common constants. </p>
 <table class="fieldtable">
 <tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a30588020d94e465833eba9f36099895ca9d48cae3ddfc48594e651b6b97eea582"></a>EVENT_MOB_RATE_LIMIT&#160;</td><td class="fielddoc"><p>the maximum value settable for the mob_rate event (1000 default) </p>
-<dl class="defines"><dt><b><a class="el" href="defines.html#_defines000021">Defines:</a></b></dt><dd>the maximum value settable for the mob_rate event (1000 default)</dd></dl>
-<dl class="newstuff"><dt><b><a class="el" href="newstuff.html#_newstuff000021">NewStuff:</a></b></dt><dd>the maximum value settable for the mob_rate event (1000 default)</dd></dl>
-<dl class="newstuffdefines"><dt><b><a class="el" href="newstuffdefines.html#_newstuffdefines000021">New Defines:</a></b></dt><dd>the maximum value settable for the mob_rate event (1000 default)</dd></dl>
+<dl class="defines"><dt><b><a class="el" href="defines.html#_defines000023">Defines:</a></b></dt><dd>the maximum value settable for the mob_rate event (1000 default)</dd></dl>
+<dl class="newstuff"><dt><b><a class="el" href="newstuff.html#_newstuff000023">NewStuff:</a></b></dt><dd>the maximum value settable for the mob_rate event (1000 default)</dd></dl>
+<dl class="newstuffdefines"><dt><b><a class="el" href="newstuffdefines.html#_newstuffdefines000023">New Defines:</a></b></dt><dd>the maximum value settable for the mob_rate event (1000 default)</dd></dl>
 </td></tr>
 <tr><td class="fieldname"><a id="a30588020d94e465833eba9f36099895caf9740233d92add117719f5b9c4692c1b"></a>MAP_ALLOW_LIMIT&#160;</td><td class="fielddoc"><p>define how many maps are allowed per game core (32 default) </p>
-<dl class="defines"><dt><b><a class="el" href="defines.html#_defines000022">Defines:</a></b></dt><dd>define how many maps are allowed per game core (32 default)</dd></dl>
-<dl class="newstuff"><dt><b><a class="el" href="newstuff.html#_newstuff000022">NewStuff:</a></b></dt><dd>define how many maps are allowed per game core (32 default)</dd></dl>
-<dl class="newstuffdefines"><dt><b><a class="el" href="newstuffdefines.html#_newstuffdefines000022">New Defines:</a></b></dt><dd>define how many maps are allowed per game core (32 default)</dd></dl>
+<dl class="defines"><dt><b><a class="el" href="defines.html#_defines000024">Defines:</a></b></dt><dd>define how many maps are allowed per game core (32 default)</dd></dl>
+<dl class="newstuff"><dt><b><a class="el" href="newstuff.html#_newstuff000024">NewStuff:</a></b></dt><dd>define how many maps are allowed per game core (32 default)</dd></dl>
+<dl class="newstuffdefines"><dt><b><a class="el" href="newstuffdefines.html#_newstuffdefines000024">New Defines:</a></b></dt><dd>define how many maps are allowed per game core (32 default)</dd></dl>
 </td></tr>
 <tr><td class="fieldname"><a id="a30588020d94e465833eba9f36099895ca470f0521513a54c1b16b4526e47daac0"></a>PRIV_EMPIRE_RATE_LIMIT&#160;</td><td class="fielddoc"><p>the maximum rate value settable for the priv empire (200 default) </p>
-<dl class="defines"><dt><b><a class="el" href="defines.html#_defines000023">Defines:</a></b></dt><dd>the maximum rate value settable for the priv empire (200 default)</dd></dl>
-<dl class="newstuff"><dt><b><a class="el" href="newstuff.html#_newstuff000023">NewStuff:</a></b></dt><dd>the maximum rate value settable for the priv empire (200 default)</dd></dl>
-<dl class="newstuffdefines"><dt><b><a class="el" href="newstuffdefines.html#_newstuffdefines000023">New Defines:</a></b></dt><dd>the maximum rate value settable for the priv empire (200 default)</dd></dl>
+<dl class="defines"><dt><b><a class="el" href="defines.html#_defines000025">Defines:</a></b></dt><dd>the maximum rate value settable for the priv empire (200 default)</dd></dl>
+<dl class="newstuff"><dt><b><a class="el" href="newstuff.html#_newstuff000025">NewStuff:</a></b></dt><dd>the maximum rate value settable for the priv empire (200 default)</dd></dl>
+<dl class="newstuffdefines"><dt><b><a class="el" href="newstuffdefines.html#_newstuffdefines000025">New Defines:</a></b></dt><dd>the maximum rate value settable for the priv empire (200 default)</dd></dl>
 </td></tr>
 <tr><td class="fieldname"><a id="a30588020d94e465833eba9f36099895ca78f909a853877642ac369fae6d193dce"></a>PRIV_EMPIRE_TIME_LIMIT&#160;</td><td class="fielddoc"><p>the maximum time value settable for the priv empire (1 week default) </p>
-<dl class="defines"><dt><b><a class="el" href="defines.html#_defines000024">Defines:</a></b></dt><dd>the maximum time value settable for the priv empire (1 week default)</dd></dl>
-<dl class="newstuff"><dt><b><a class="el" href="newstuff.html#_newstuff000024">NewStuff:</a></b></dt><dd>the maximum time value settable for the priv empire (1 week default)</dd></dl>
-<dl class="newstuffdefines"><dt><b><a class="el" href="newstuffdefines.html#_newstuffdefines000024">New Defines:</a></b></dt><dd>the maximum time value settable for the priv empire (1 week default)</dd></dl>
+<dl class="defines"><dt><b><a class="el" href="defines.html#_defines000026">Defines:</a></b></dt><dd>the maximum time value settable for the priv empire (1 week default)</dd></dl>
+<dl class="newstuff"><dt><b><a class="el" href="newstuff.html#_newstuff000026">NewStuff:</a></b></dt><dd>the maximum time value settable for the priv empire (1 week default)</dd></dl>
+<dl class="newstuffdefines"><dt><b><a class="el" href="newstuffdefines.html#_newstuffdefines000026">New Defines:</a></b></dt><dd>the maximum time value settable for the priv empire (1 week default)</dd></dl>
 </td></tr>
 <tr><td class="fieldname"><a id="a30588020d94e465833eba9f36099895cae3ec7884d6fd6c91c84407a049f35ae5"></a>PRIV_GUILD_RATE_LIMIT&#160;</td><td class="fielddoc"><p>the maximum rate value settable for the priv guild (50 default) </p>
-<dl class="defines"><dt><b><a class="el" href="defines.html#_defines000025">Defines:</a></b></dt><dd>the maximum rate value settable for the priv guild (50 default)</dd></dl>
-<dl class="newstuff"><dt><b><a class="el" href="newstuff.html#_newstuff000025">NewStuff:</a></b></dt><dd>the maximum rate value settable for the priv guild (50 default)</dd></dl>
-<dl class="newstuffdefines"><dt><b><a class="el" href="newstuffdefines.html#_newstuffdefines000025">New Defines:</a></b></dt><dd>the maximum rate value settable for the priv guild (50 default)</dd></dl>
+<dl class="defines"><dt><b><a class="el" href="defines.html#_defines000027">Defines:</a></b></dt><dd>the maximum rate value settable for the priv guild (50 default)</dd></dl>
+<dl class="newstuff"><dt><b><a class="el" href="newstuff.html#_newstuff000027">NewStuff:</a></b></dt><dd>the maximum rate value settable for the priv guild (50 default)</dd></dl>
+<dl class="newstuffdefines"><dt><b><a class="el" href="newstuffdefines.html#_newstuffdefines000027">New Defines:</a></b></dt><dd>the maximum rate value settable for the priv guild (50 default)</dd></dl>
 </td></tr>
 <tr><td class="fieldname"><a id="a30588020d94e465833eba9f36099895ca01c5d862245fa4b654b74c229a63957a"></a>PRIV_GUILD_TIME_LIMIT&#160;</td><td class="fielddoc"><p>the maximum time value settable for the priv guild (1 week default) </p>
-<dl class="defines"><dt><b><a class="el" href="defines.html#_defines000026">Defines:</a></b></dt><dd>the maximum time value settable for the priv guild (1 week default)</dd></dl>
-<dl class="newstuff"><dt><b><a class="el" href="newstuff.html#_newstuff000026">NewStuff:</a></b></dt><dd>the maximum time value settable for the priv guild (1 week default)</dd></dl>
-<dl class="newstuffdefines"><dt><b><a class="el" href="newstuffdefines.html#_newstuffdefines000026">New Defines:</a></b></dt><dd>the maximum time value settable for the priv guild (1 week default)</dd></dl>
+<dl class="defines"><dt><b><a class="el" href="defines.html#_defines000028">Defines:</a></b></dt><dd>the maximum time value settable for the priv guild (1 week default)</dd></dl>
+<dl class="newstuff"><dt><b><a class="el" href="newstuff.html#_newstuff000028">NewStuff:</a></b></dt><dd>the maximum time value settable for the priv guild (1 week default)</dd></dl>
+<dl class="newstuffdefines"><dt><b><a class="el" href="newstuffdefines.html#_newstuffdefines000028">New Defines:</a></b></dt><dd>the maximum time value settable for the priv guild (1 week default)</dd></dl>
 </td></tr>
 <tr><td class="fieldname"><a id="a30588020d94e465833eba9f36099895ca81d8c317c75f81c0faec357fee974cde"></a>PRIV_PLAYER_RATE_LIMIT&#160;</td><td class="fielddoc"><p>the maximum rate value settable for the priv player (100 default) </p>
-<dl class="defines"><dt><b><a class="el" href="defines.html#_defines000027">Defines:</a></b></dt><dd>the maximum rate value settable for the priv player (100 default)</dd></dl>
-<dl class="newstuff"><dt><b><a class="el" href="newstuff.html#_newstuff000027">NewStuff:</a></b></dt><dd>the maximum rate value settable for the priv player (100 default)</dd></dl>
-<dl class="newstuffdefines"><dt><b><a class="el" href="newstuffdefines.html#_newstuffdefines000027">New Defines:</a></b></dt><dd>the maximum rate value settable for the priv player (100 default)</dd></dl>
+<dl class="defines"><dt><b><a class="el" href="defines.html#_defines000029">Defines:</a></b></dt><dd>the maximum rate value settable for the priv player (100 default)</dd></dl>
+<dl class="newstuff"><dt><b><a class="el" href="newstuff.html#_newstuff000029">NewStuff:</a></b></dt><dd>the maximum rate value settable for the priv player (100 default)</dd></dl>
+<dl class="newstuffdefines"><dt><b><a class="el" href="newstuffdefines.html#_newstuffdefines000029">New Defines:</a></b></dt><dd>the maximum rate value settable for the priv player (100 default)</dd></dl>
 </td></tr>
 </table>
 
@@ -590,8 +634,8 @@ Enumerations</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="dir_1a445cb237d74f7a5f8d11ec3b0585cc.html">Server</a></li><li class="navelem"><a class="el" href="dir_6b4256ae2e548dc935f589e2baa071c9.html">common</a></li><li class="navelem"><a class="el" href="_common_defines_8h.html">CommonDefines.h</a></li>
-    <li class="footer">Generated on Fri May 19 2017 10:14:20 for M2 Docs by
+    <li class="navelem"><a class="el" href="dir_0f41edb288dd70238b78044faf67318c.html">s3ll_server</a></li><li class="navelem"><a class="el" href="dir_05e6bc61369b3649208c158f87402498.html">Srcs</a></li><li class="navelem"><a class="el" href="dir_b0293ba0a2c4274d31e62490b2ec4bce.html">Server</a></li><li class="navelem"><a class="el" href="dir_3b61b530a2704f4a7f85947e56be5f3d.html">common</a></li><li class="navelem"><a class="el" href="_common_defines_8h.html">CommonDefines.h</a></li>
+    <li class="footer">Generated on Sun Sep 15 2019 15:25:05 for M2 Docs by
     <a href="http://www.doxygen.org/index.html">
     martysama0134 using Doxygen</a> 1.8.13 </li>
   </ul>

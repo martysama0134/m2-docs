@@ -82,8 +82,6 @@ var cmd__gm_8cpp =
     [ "do_notice", "group___cmd_list.html#ga0a1d17184065b354430f602f11c28442", null ],
     [ "do_notice_test", "group___cmd_list.html#ga2bd1e1441b116f8f151d589c25e93f1d", null ],
     [ "do_observer", "group___cmd_list.html#ga13bc6e9cafaf526aa590ca0697b78274", null ],
-    [ "do_pcbang_check", "group___cmd_list.html#ga624feda2422ad5c27b6c00889f2e51be", null ],
-    [ "do_pcbang_update", "group___cmd_list.html#ga0bd90c65497f0e9f6b5ab38ee56359d2", null ],
     [ "do_poison", "group___cmd_list.html#gae36cf467ca3530182af457989bebef24", null ],
     [ "do_polymorph", "group___cmd_list.html#gaa43e6711e336fe661097854c8828296b", null ],
     [ "do_polymorph_item", "group___cmd_list.html#ga6add996d5068c211ab9c76b5e9bcb329", null ],

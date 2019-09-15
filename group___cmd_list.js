@@ -117,8 +117,6 @@ var group___cmd_list =
     [ "do_party_request", "group___cmd_list.html#gaeb8bfe646a52957064d0138eab784b50", null ],
     [ "do_party_request_accept", "group___cmd_list.html#ga5639b2a9a3b155eb69e414728a8ddd49", null ],
     [ "do_party_request_deny", "group___cmd_list.html#gaf1c7de023f8c01a8f1ae37a2393cfe6e", null ],
-    [ "do_pcbang_check", "group___cmd_list.html#ga624feda2422ad5c27b6c00889f2e51be", null ],
-    [ "do_pcbang_update", "group___cmd_list.html#ga0bd90c65497f0e9f6b5ab38ee56359d2", null ],
     [ "do_pkmode", "group___cmd_list.html#gaebbbc8b727e74127b4b69f1f1403ae65", null ],
     [ "do_poison", "group___cmd_list.html#gae36cf467ca3530182af457989bebef24", null ],
     [ "do_polymorph", "group___cmd_list.html#gaa43e6711e336fe661097854c8828296b", null ],

@@ -1,6 +1,7 @@
 var _common_defines_8h =
 [
     [ "ENABLE_BELT_INVENTORY_EX", "_common_defines_8h.html#a73859a2476b1c9404c01010264036c88", null ],
+    [ "ENABLE_CMD_WARP_IN_DUNGEON", "_common_defines_8h.html#afd8d81e269bf8ab0945b1a491c6010ef", null ],
     [ "ENABLE_D_NJGUILD", "_common_defines_8h.html#a1d99e65db14dbd6d473f23978a2abe1b", null ],
     [ "ENABLE_DICE_SYSTEM", "_common_defines_8h.html#a7c460ef7ca41e11775658540ba1cf4d4", null ],
     [ "ENABLE_EXTEND_INVEN_SYSTEM", "_common_defines_8h.html#a05dc95552b22e87bd44a0a1493b9f45f", null ],
@@ -10,6 +11,7 @@ var _common_defines_8h =
     [ "ENABLE_NEWSTUFF", "_common_defines_8h.html#ab9b55728b81b315ce8f448dcaf8cde3e", null ],
     [ "ENABLE_PLAYER_PER_ACCOUNT5", "_common_defines_8h.html#a630a560d5fdfd380228f4cf0e26d0047", null ],
     [ "ENABLE_PORT_SECURITY", "_common_defines_8h.html#a8bf8f371b9315570a225bd93a4052625", null ],
+    [ "ENABLE_USE_COSTUME_ATTR", "_common_defines_8h.html#affbef2cee65e0d781249670c8a398528", null ],
     [ "ENABLE_WEAPON_COSTUME_SYSTEM", "_common_defines_8h.html#a1870630734abc5056e4db4b1c93ae49b", null ],
     [ "ENABLE_WOLFMAN_CHARACTER", "_common_defines_8h.html#a75891f849fa34fffefbe54cdfa8d9fc2", null ],
     [ "USE_MOB_BLEEDING_AS_POISON", "_common_defines_8h.html#aa25d8465fe24775f8b3848262879da3f", null ],

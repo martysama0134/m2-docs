@@ -104,6 +104,7 @@ var questlua__pc_8cpp =
     [ "pc_give_or_drop_item_with_dice", "questlua__pc_8cpp.html#ga97e76b45cc7f5cdb7dae6fcee1c0fc2e", null ],
     [ "pc_give_poly_marble", "questlua__pc_8cpp.html#ga8845c9c91d479bce1709997014d44c14", null ],
     [ "pc_give_polymorph_book", "questlua__pc_8cpp.html#ga552a38f7639372b1ec8836cd202a90a2", null ],
+    [ "pc_give_random_book0", "questlua__pc_8cpp.html#ga118c7d84211ea78094d94a0f23066c5a", null ],
     [ "pc_has_master_skill", "questlua__pc_8cpp.html#ga2d403cbf6d81ca5db3a3ba0345ca73c7", null ],
     [ "pc_hasguild", "questlua__pc_8cpp.html#ga1eb8a45873fd45c4ff308985c8a1c482", null ],
     [ "pc_have_map_scroll", "questlua__pc_8cpp.html#ga928c230e14e95288a27e99e76fa7862c", null ],

@@ -121,6 +121,7 @@ var searchData=
   ['pc_5fgive_5for_5fdrop_5fitem_5fwith_5fdice',['pc_give_or_drop_item_with_dice',['../group___lua_func_list.html#ga97e76b45cc7f5cdb7dae6fcee1c0fc2e',1,'quest']]],
   ['pc_5fgive_5fpoly_5fmarble',['pc_give_poly_marble',['../group___lua_func_list.html#ga8845c9c91d479bce1709997014d44c14',1,'quest']]],
   ['pc_5fgive_5fpolymorph_5fbook',['pc_give_polymorph_book',['../group___lua_func_list.html#ga552a38f7639372b1ec8836cd202a90a2',1,'quest']]],
+  ['pc_5fgive_5frandom_5fbook0',['pc_give_random_book0',['../group___lua_func_list.html#ga118c7d84211ea78094d94a0f23066c5a',1,'quest']]],
   ['pc_5fhas_5fmaster_5fskill',['pc_has_master_skill',['../group___lua_func_list.html#ga2d403cbf6d81ca5db3a3ba0345ca73c7',1,'quest']]],
   ['pc_5fhasguild',['pc_hasguild',['../group___lua_func_list.html#ga1eb8a45873fd45c4ff308985c8a1c482',1,'quest']]],
   ['pc_5fhave_5fmap_5fscroll',['pc_have_map_scroll',['../group___lua_func_list.html#ga928c230e14e95288a27e99e76fa7862c',1,'quest']]],
